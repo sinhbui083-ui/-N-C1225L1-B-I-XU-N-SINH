@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> SỞ THÍCH 
+    </title>
+</head>
+<body>
+<h1 style=" color: white ; background-color: blue ;text-align: center"> SỞ THÍCH CỦA BẠN </h1>
+<form>
+    <p>
+        <lable> Họ và tên: </lable>
+    <input type="text"; name="yourname">
+    </p>
+   <p>
+
+        <label> Email: </label>
+    <input type="email"; name="yourmail">
+   </p>
+    <p>
+        <label> Sở Thích: </label>
+        <input type="checkbox" name="hobby"> Tập Gym
+        <input type="checkbox" name="hobby"> nghe nhạc
+        <input type="checkbox" name="hobby"> Làm mô hình
+        <br>
+
+        <input type="checkbox" name="hobby"> Tìm hiểu tin học
+        <input type="checkbox" name="hobby"> Quân sự và lịch sử
+        <input type="checkbox" name="hobby"> Cosplay
+        <br>
+        <input type="checkbox" name="hobby"> tìm hiểu xe hơi
+
+    </p>
+    <p>
+        <input type="submit" value=" Gửi Thông Tin ">
+        <input type="reset" value=" Nhập Lại ">
+    </p>
+
+</form>
+</body>
+</html>
